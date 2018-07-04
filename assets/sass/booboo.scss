@@ -12,11 +12,6 @@
         margin-right: auto;
         padding-top: 100px;
 
-        h1{
-           color: white;
-           text-transform: uppercase;
-           font-weight: 300;
-        }
     }
 
     .container-overflow{
@@ -54,4 +49,24 @@
         }
     }
 
+}
+
+/* --------------------------------------- */
+/* -------- CONTAINER WRONG PASS --------- */
+/* --------------------------------------- */
+
+.container-wrong-password {
+
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index:999;
+    background-color: rgba( 0,0,0,0.8 );
+    text-align: center;
+
+    h1{
+        line-height: 100vh;
+    }
 }

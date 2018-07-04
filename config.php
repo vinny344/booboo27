@@ -1,4 +1,6 @@
+<?php
 
-<div class="login-container" style-"background-image: url( '' ); ">
-
-</div>
+define( 'DB_HOST','localhost' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', '' );
+define( 'DB_NAME', 'vb_booboo' );

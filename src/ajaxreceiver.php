@@ -17,9 +17,5 @@ if( $request[ 'function' ] && $request[ 'controller' ] ) {
 
 
 }
-else{
-
-
-}
 
 echo json_encode( $result );

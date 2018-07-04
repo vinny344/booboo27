@@ -10,7 +10,15 @@ $( document ).ready( function() {
 
     } );
 
+    $( 'input' ).focus( function() {
+
+        $( this ).attr( 'placeholder', '' );
+
+    } );
+
     $( '#btn-login' ).click( function() {
+
+        var url_path = $( '#data-js' ).attr( 'data-url' );
 
         var username = $( '#b_username' ).val();
         var password = $( '#b_password' ).val();
@@ -27,10 +35,22 @@ $( document ).ready( function() {
                 function: functionString,
                 controller: controller,
             },
+            dataType: "json",
             success: function( data ) {
-                alert( data );
+                         
+                if( 'KO' === data.status ) {
+                    
+                    $( '#wrong-pass' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );
+
+                }
+                else{
+
+                    window.location.href = 'pages/happy-birthday.php'
+
+                }
+
             },
-            error: function( error , x , y ){
+            error: function( error , x , y ) {
                 
             }
 
