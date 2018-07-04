@@ -3,7 +3,7 @@
 <head>
 <title>Booboo27</title>
 
-    <?php require_once( PROJECT_PATH . '/includes/head.php' ); ?>
+    <?php require_once( __DIR__ . '/includes/head.php' ); ?>
 
 </head>
 

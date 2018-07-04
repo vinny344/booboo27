@@ -1,4 +1,6 @@
 
+<?php require_once( __DIR__ . '/../header.php' ); ?>
+
 <div class="container-landing-page">
 
     <div class="overlay black"></div>
@@ -28,3 +30,8 @@
         </div>
     </div>
 </div>
+
+
+<?php require_once( __DIR__ . '/../footer.php' ); ?>
+
+<script type="application/javascript" src="./assets/js/login.js"></script>
