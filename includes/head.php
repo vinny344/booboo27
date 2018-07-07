@@ -10,4 +10,5 @@
 
 <link rel="stylesheet" href="<?php URL_PATH ?>assets/css/style.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wendy+One" />
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />

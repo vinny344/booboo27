@@ -1,4 +1,4 @@
-<?php require_once( __DIR__ . '/includes/head-form.php' ); ?>
+<?php require_once( __DIR__ . '/config.php' ); ?>
 
 <!DOCTYPE html>
 

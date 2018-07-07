@@ -1,9 +1,19 @@
 /* -------------------------- */
+/* --------- COLOR ---------- */
+/* -------------------------- */
+
+/* -------------------------- */
 /* --------- FUNKY ---------- */
 /* -------------------------- */
 
 .hidden{
     display: none;
+}
+.bottom--200vh{
+    bottom: 200vh !important
+}
+.top--100vh{
+    top: -100vh !important;
 }
 .top-100{
     top: -100px !important;
@@ -11,11 +21,22 @@
 .top-0{
     top: 0 !important;
 }
+.bot-45{
+    bottom: 45% !important;
+}
 .bot-0{
     bottom: 0 !important;
 }
 .bot-100{
     bottom: 100px !important;
+}
+
+.opa-1{
+    opacity: 1 !important;
+}
+
+.h-100{
+    height: 100% !important;
 }
 
 /* -------------------------- */

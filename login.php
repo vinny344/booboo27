@@ -1,5 +1,5 @@
 
-<?php  require_once( __DIR__ . '/../header.php' ); ?>
+<?php  require_once( __DIR__ . '/header.php' ); ?>
 
 <div id="data-js" data-url='<?php echo URL_PATH ?>'></div>
 
@@ -42,6 +42,6 @@
 </div>
 
 
-<?php require_once( __DIR__ . '/../footer.php' ); ?>
+<?php require_once( __DIR__ . '/footer.php' ); ?>
 
 <script type="application/javascript" src="<?php URL_PATH ?>assets/js/login.js"></script>

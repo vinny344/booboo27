@@ -45,7 +45,7 @@ $( document ).ready( function() {
                 }
                 else{
 
-                    window.location.href = 'pages/happy-birthday.php'
+                    window.location.href = 'happy-birthday.php'
 
                 }
 

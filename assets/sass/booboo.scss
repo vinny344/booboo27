@@ -70,3 +70,366 @@
         line-height: 100vh;
     }
 }
+
+/* --------------------------------------- */
+/* -------- PAGE HAPPY BIRTHDAY ---------- */
+/* --------------------------------------- */
+
+$c-blue: rgba( 15, 70, 125, 0.8 );
+$c-pink: rgba( 255, 150, 203, 0.8 );
+$c-yellow: rgba( 238, 221, 130, 0.8 );
+$c-orange: rgba( 255, 87, 51, 0.8 );
+$c-green: rgba( 111, 201, 41, 0.8 );
+$c-red: rgba( 254, 9, 9, 0.8 );
+$c-purple: rgba( 120, 9, 254, 0.8 );
+
+#page-happy-birthday{
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.container-happy-birthday{
+    background-color: #a4d05f;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+
+    .container-title{
+        padding-top: 10%;
+        position: relative;
+        z-index: 9999;
+
+        span{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Wendy One', sans-serif;
+            color: white;
+            font-size: 50px;
+        }
+    }
+
+    .b, .last-b{
+        height: 140px;
+        width: 104px;
+        border-radius:80% 80% 80% 80%;
+        position: absolute;
+        left:0;
+        bottom: -100vh;
+        transition: 5s;
+
+        .triangle{
+            position: absolute;
+            bottom: -5px;
+            left:0;
+            right:0;
+            margin: auto;
+            width: 10px;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;      
+            border-bottom: 10px solid black;
+
+        }
+        .line{
+            position: absolute;
+            left:0;
+            right:0;
+            top: 145px;
+            margin: auto;
+            width: 2px;
+            height: 150px;
+            background-color: white;
+        }
+    }
+
+    .last-b{
+
+        left:0 !important;
+        right:0;
+        margin: auto;
+        transition: 3s;
+
+        .rond-line{
+            position: absolute;
+            left:0;
+            right:0;
+            bottom:-10px;
+            margin: auto;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%; 
+            background-color: white;
+
+            animation: snake 1s infinite;
+
+            &:nth-child( 2 ) {
+                bottom: -15px;
+                animation-delay: 0.2s;
+            }
+            &:nth-child( 3 ) {
+                bottom: -21px;
+                animation-delay: 0.4s;
+            }
+            &:nth-child( 4 ) {
+                bottom: -26px;
+                animation-delay: 0.6s;
+            }
+            &:nth-child( 5 ) {
+                bottom: -31px;
+                animation-delay: 0.8s;
+            }
+            &:nth-child( 6 ) {
+                bottom: -36px;
+                animation-delay: 1s;
+            }
+            &:nth-child( 7 ) {
+                bottom: -41px;
+                   animation-delay: 1.2s;
+            }
+            &:nth-child( 8 ) {
+                bottom: -46px;
+                animation-delay: 1.4s;
+            }
+            &:nth-child( 9 ) {
+                bottom: -51px;
+                   animation-delay: 1.6s;
+            }
+            &:nth-child( 10 ) {
+                bottom: -56px;
+                   animation-delay: 1.8s;
+            }
+            &:nth-child( 11 ) {
+                bottom: -61px;
+                animation-delay: 2s;
+            }
+            &:nth-child( 12 ) {
+                bottom: -66px;
+                   animation-delay: 2.2s;
+            }
+            &:nth-child( 13 ) {
+                bottom: -71px;
+                   animation-delay: 2.4s;
+            }
+            &:nth-child( 14 ) {
+                bottom: -76px;
+                animation-delay: 2.6s;
+            }
+            &:nth-child( 15 ) {
+                bottom: -81px;
+                   animation-delay: 2.8s;
+            }
+            &:nth-child( 16 ) {
+                bottom: -86px;
+                   animation-delay: 3s;
+            }
+            &:nth-child( 17 ) {
+                bottom: -91px;
+                   animation-delay: 3.2s;
+            }
+            &:nth-child( 18 ) {
+                bottom: -96px;
+                animation-delay: 3.4s;
+            }
+           
+        }
+
+
+    }
+
+    @-webkit-keyframes snake{
+
+        0% {
+            transform: translateX( 0 );
+        }
+
+        50% {
+            transform: translateX( 1.5px );
+        } 
+
+        100% {
+            transform: translateX( 0 );
+        }
+
+    }
+
+    .b-blue{
+        left:0;
+        background-color: $c-blue;
+        box-shadow:inset 10px 10px 10px darken( $c-blue , 10%);
+
+        .triangle{
+            border-bottom: 10px solid $c-blue;
+        }
+    }
+
+    .b-orange{
+        left: 50px;
+        background-color: $c-orange;
+        box-shadow:inset 10px 10px 10px darken( $c-orange , 10%);
+
+        .triangle{
+            border-bottom: 10px solid $c-orange;
+        }
+    }
+
+    .b-pink{
+        left: 100px;
+        background-color: $c-pink;
+        box-shadow:inset 10px 10px 10px darken( $c-pink , 10%);
+
+        .triangle{
+            border-bottom: 10px solid $c-pink;
+        }
+    }
+
+    .b-green{
+        left: 150px;
+        background-color: $c-green;
+        box-shadow:inset 10px 10px 10px darken( $c-green , 10%);
+
+        .triangle{
+            border-bottom: 10px solid $c-green;
+        }
+    }
+
+    .b-yellow{
+        left: 180px;
+        background-color: $c-yellow;
+        box-shadow:inset 10px 10px 10px darken( $c-yellow , 10%);
+
+        .triangle{
+            border-bottom: 10px solid $c-yellow;
+        }
+    }
+
+    .b-red{
+        left: 30px;
+        background-color: $c-red;
+        box-shadow:inset 10px 10px 10px darken( $c-red , 10%);
+
+        .triangle{
+            border-bottom: 10px solid $c-red;
+        }
+
+    }
+
+    .b-purple{
+
+        left: 110px;
+        background-color: $c-purple;
+        box-shadow:inset 10px 10px 10px darken( $c-purple , 10%);
+
+        .triangle{
+            border-bottom: 10px solid $c-purple;
+        }
+
+    }
+
+    .container-btn{
+        position: absolute;
+        bottom: 10%;
+        left:0;
+        right:0;
+        margin: auto;
+        text-align: center;
+
+        .btn-balloon{
+
+            display: none;
+            padding: 15px 25px;
+            background-color: $c-blue;
+            border: 0;
+            color: white;
+            font-weight: bold;
+            font-family: 'Wendy One', sans-serif;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: .5mm;
+        }
+    }
+
+}
+
+.container-happy-birthday-answer{
+
+    position: fixed;
+    bottom: -100%;
+    left:0;
+    z-index:9999999;
+    background-color: #f7b2c5;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: .5s;
+
+    .square{
+        height:50px;
+        width: 50px;
+        background-color: white;
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+    }
+
+    
+    .container-title{
+        padding-top: 20px;
+        
+        h1{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Wendy One', sans-serif;
+            color: white;
+            font-size: 40px;
+            letter-spacing: .5mm;
+        }
+    }
+
+    input{
+        margin-top: 100px;
+        width: 70%;
+        float: left;
+        padding-right:15px;
+        font-family: 'Wendy One', sans-serif;
+    }
+    .btn-arrow{
+        width: 20%;
+        height: 50px;
+        margin-top: 85px;
+        float: right;
+        background-color: black;
+        text-align: center;
+
+        i{
+            color: white;
+            line-height: 50px;
+            font-size: 20px;
+        }
+    }
+    .container-answer{
+        display: none;
+        position: absolute;
+        left:0;
+        right:0;
+        bottom: 50px;
+        margin: auto;
+        text-align: center;
+
+        h2{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Wendy One', sans-serif;
+            color: white;
+            font-size: 30px;
+            letter-spacing: .5mm;
+        }
+    }
+
+
+}
+
