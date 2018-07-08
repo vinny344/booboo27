@@ -25,6 +25,12 @@
                 <b>HAPPY BIRTHDAY</b> again my love, my best friend. <b>LOVE YOU</b>.
             </p>
 
+            <?php $count = 0; ?>
+            <?php for( $i = 0; $i < 27; $i ++ ) { ?>
+                <?php include( __DIR__ . '/views/letter-heart.php' ); ?>
+            <?php } ?>
+
+
         </div>
 
         

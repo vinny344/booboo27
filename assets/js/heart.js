@@ -3,7 +3,7 @@ $( document ).ready( function() {
     $( '.container-page-heart' ).addClass( 'left-0' );
 
     setTimeout( function(){
-        $( '.container-heart img' ).addClass( 'scale-1' );
+        $( '.container-heart .fa-heart' ).addClass( 'scale-1' );
     }, 300);
 
 

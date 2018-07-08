@@ -11,7 +11,7 @@
         </div>
 
         <div class="container-heart">
-            <img src="<?php URL_PATH ?>assets/images/heart.png" alt="heart" />
+            <i class="fa fa-heart"></i>
         </div>
 
         <h2 class="hidden">Love you</h2>

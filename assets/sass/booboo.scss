@@ -449,12 +449,13 @@ $c-purple: rgba( 120, 9, 254, 0.8 );
 
     .container-heart{
 
-        img{
+        .fa-heart{
             -webkit-transform: scale( 0 );
             transform: scale( 0 );
             -webkit-transition: .6s;
             transition: .6s;
-            max-height: 600px;
+            font-size: 300px;
+            color: $c-red;
         }
 
     }
@@ -613,10 +614,13 @@ $c-purple: rgba( 120, 9, 254, 0.8 );
     bottom: -100%;
     transition: .3s;
     padding-top: 10%;
+    padding-bottom: 10%;
 
     h1{
         font-size: 30px;
         font-weight: bold;
+        position: relative;
+        z-index:9999;
     }
 
     .line{
@@ -625,17 +629,34 @@ $c-purple: rgba( 120, 9, 254, 0.8 );
         background-color: white;
         margin-top: 10px;
         margin-bottom: 20px;
+        position: relative;
+        z-index:9999;
     }
 
     b{
         color: white;
+        position: relative;
+        z-index:9999;
     }
 
     p{
         margin-top: 0;
         font-size: 22px;
+        position: relative;
+        z-index:9999;
         color: white;
     }
+
+    .letter-heart{
+
+        display: inline-block;
+
+        i{
+            color: white;
+            font-size: 30px;
+        }
+    }
+    
 }
 
 
