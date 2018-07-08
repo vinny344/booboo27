@@ -12,45 +12,20 @@ $( document ).ready( function() {
 
     $( '#btn-login' ).click( function() {
 
-        var url_path = $( '#data-js' ).attr( 'data-url' );
-
         var username = $( '#b_username' ).val();
         var password = $( '#b_password' ).val();
-    
-        var functionString = 'user_exist';
-        var controller = 'User';
 
-        $.ajax({
-            type: "POST",
-            url: "./src/ajaxreceiver.php",
-            data: {
-                username: username,
-                password: password,
-                function: functionString,
-                controller: controller,
-            },
-            dataType: "json",
-            success: function( data ) {
-                         
-                if( 'KO' === data.status ) {
+        if( 'booboo' != password && 'mybaby' != username ) {
                     
-                    $( '#wrong-pass' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );
+            $( '#wrong-pass' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );
 
-                }
-                else{
+        }
+        else{
 
-                    window.location.href = 'happy-birthday';
+            window.location.href = 'happy-birthday';
 
-                }
+        }
 
-            },
-            error: function( error , x , y ) {
-                
-            }
-
-
-        });
-    
     });
 
 });

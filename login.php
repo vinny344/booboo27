@@ -1,8 +1,6 @@
 
 <?php  require_once( __DIR__ . '/header.php' ); ?>
 
-<div id="data-js" data-url='<?php echo URL_PATH ?>'></div>
-
 <div class="container-landing-page">
 
     <div class="overlay black"></div>
