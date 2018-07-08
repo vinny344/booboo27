@@ -10,12 +10,6 @@ $( document ).ready( function() {
 
     } );
 
-    $( 'input' ).focus( function() {
-
-        $( this ).attr( 'placeholder', '' );
-
-    } );
-
     $( '#btn-login' ).click( function() {
 
         var url_path = $( '#data-js' ).attr( 'data-url' );
@@ -45,7 +39,7 @@ $( document ).ready( function() {
                 }
                 else{
 
-                    window.location.href = 'happy-birthday.php'
+                    window.location.href = 'happy-birthday';
 
                 }
 

@@ -38,7 +38,7 @@ $( document ).ready( function() {
         $( '#btn-balloon' ).fadeIn();
         $( '.last-b' ).addClass( 'bot-45' );
 
-    }, 18100 );
+    }, 6800 );
 
 
     $( '#btn-balloon' ).click( function(){
@@ -55,8 +55,8 @@ $( document ).ready( function() {
         else if( 'no' == answer ){
             $( '.container-answer-no' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );
         }
-        else if( 'yes' == answer ){
-            $( '.container-answer-no' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );
+        else if( 'wind' == answer ){
+            window.location.href = 'heart';
         }
         else{
             $( '.container-answer-nothing' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );

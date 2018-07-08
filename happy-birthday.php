@@ -29,7 +29,7 @@
 
             </div>
 
-            <?php for( $i = 0; $i < 100; $i ++ ) { ?>
+            <?php for( $i = 0; $i < 27; $i ++ ) { ?>
                 <?php include( __DIR__ . '/views/balloon.php' ); ?>
             <?php } ?>
 
