@@ -4,7 +4,8 @@
 
     <div class="container-page-square-riddle">
 
-        <div class="wrapper">
+            <div class="wrapper">
+
 
             <div class="container-all-square">
 
@@ -14,14 +15,15 @@
 
             </div>
 
-
         </div>
 
     </div>
 
-    <div id="wrong-pass" class="container-wrong-password hidden">
+    <div id="wrong-pass" class="container-wrong hidden">
 
-        <h1>No Problem booboo you can do it. Kiss kiss</h1>
+        <div class="wrapper">
+            <h1>No Problem booboo you can do it. Kiss kiss</h1>
+        </div>
 
     </div>
 

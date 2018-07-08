@@ -518,6 +518,27 @@ $c-purple: rgba( 120, 9, 254, 0.8 );
     overflow: hidden;
 }
 
+.container-wrong{
+
+    position: fixed;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    z-index:999;
+    background-color: rgba( 0,0,0,0.8 );
+    text-align: center;
+
+    h1{
+        position: absolute;
+        top:0;
+        bottom:0;
+        height: 200px;
+        margin: auto;
+    }
+
+}
+
 .container-page-square-riddle{
 
     background-color: #2172c3;
@@ -579,4 +600,23 @@ $c-purple: rgba( 120, 9, 254, 0.8 );
     }
 
 }
+
+/* --------------------------------------- */
+/* ---------- PAGE LETTER ---------------- */
+/* --------------------------------------- */
+
+#page-letter{
+    overflow: hidden;
+}
+
+.container-page-letter{
+    background-color: #2172c3;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    bottom: -100vh;
+    transition: .3s;
+}
+
 
