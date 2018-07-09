@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#FF1493">
 
 <meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
 
 <meta name="robots" content="noindex">
 <meta name="googlebot" content="noindex">
