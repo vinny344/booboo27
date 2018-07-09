@@ -35,7 +35,7 @@ $( document ).ready( function() {
             $( '.container-page-heart' ).addClass( 'left--100' );
 
             setTimeout( function(){
-                window.location.href = 'square-riddle';
+                window.location.href = 'square-riddle.php';
             }, 600 );
 
 

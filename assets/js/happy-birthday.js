@@ -56,7 +56,7 @@ $( document ).ready( function() {
             $( '.container-answer-no' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );
         }
         else if( 'wind' == answer ){
-            window.location.href = 'heart';
+            window.location.href = 'heart.php';
         }
         else{
             $( '.container-answer-nothing' ).fadeIn( 300 ).delay( 500 ).fadeOut( 300 );

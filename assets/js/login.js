@@ -22,7 +22,7 @@ $( document ).ready( function() {
         }
         else{
 
-            window.location.href = 'happy-birthday';
+            window.location.href = 'happy-birthday.php';
 
         }
 

@@ -28,7 +28,7 @@ $( document ).ready( function() {
 
             if( compareArrays( arraySquare, arrayGoodSquare ) ){
 
-                window.location.href = 'letter';
+                window.location.href = 'letter.php';
 
             }
             else{
