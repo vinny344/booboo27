@@ -9,22 +9,22 @@
             <div class="container-title">
 
                 <div>
-                    <span class="hidden">H</span>
-                    <span class="hidden">A</span>
-                    <span class="hidden">P</span>
-                    <span class="hidden">P</span>
-                    <span class="hidden">Y</span>
+                    <span>H</span>
+                    <span>A</span>
+                    <span>P</span>
+                    <span>P</span>
+                    <span>Y</span>
                 </div>
 
                 <div>
-                    <span class="hidden">B</span>
-                    <span class="hidden">I</span>
-                    <span class="hidden">R</span>
-                    <span class="hidden">T</span>
-                    <span class="hidden">H</span>
-                    <span class="hidden">D</span>
-                    <span class="hidden">A</span>
-                    <span class="hidden">Y</span>
+                    <span>B</span>
+                    <span>I</span>
+                    <span>R</span>
+                    <span>T</span>
+                    <span>H</span>
+                    <span>D</span>
+                    <span>A</span>
+                    <span>Y</span>
                 </div>
 
             </div>
@@ -69,8 +69,6 @@
     <div class="container-happy-birthday-answer">
 
         <div class="wrapper">
-
-            <div class="square"></div>
 
             <div class="container-title">
                 <h1>What is your answer ?</h1>

@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="theme-color" content="#FF1493">
 
+<meta name="mobile-web-app-capable" content="yes">
+
 <meta name="robots" content="noindex">
 <meta name="googlebot" content="noindex">
 
